@@ -2,6 +2,29 @@
 
 A comprehensive frontend-only dental center management system built with React and Vite, featuring role-based access control, patient management, appointment scheduling, and file handling.
 
+## 🎯 ENTNT Assessment Compliance
+
+This project fully implements all requirements from the ENTNT Technical Assignment:
+
+### ✅ Core Features Implemented
+- **User Authentication (Simulated)**: Complete role-based login system
+- **Patient Management (Admin-only)**: Full CRUD operations with search
+- **Appointment/Incident Management**: Comprehensive scheduling and file uploads
+- **Calendar View (Admin-only)**: Monthly/weekly views with appointment display
+- **Dashboard**: KPIs, next 10 appointments, revenue tracking
+- **Patient View**: Personal dashboard with appointment history
+- **Data Persistence**: localStorage-based with base64 file storage
+- **Responsive Design**: Mobile-first approach across all devices
+
+### 🛠️ Technical Requirements Met
+- **React**  with functional components
+- **React Router**  for navigation
+- **Context API** for state management
+- **TailwindCSS**  for styling
+- **Form validation** and reusable components
+- **File upload** UI with preview functionality
+- **No backend/API usage** - pure frontend simulation
+
 ## 🚀 Features
 
 ### Core Functionality
@@ -130,7 +153,7 @@ The application uses a structured JSON format stored in localStorage:
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/dvlaks/Medical-Dashboard
    cd entnt-dental-dashboard
    ```
 
